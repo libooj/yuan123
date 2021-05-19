@@ -1,0 +1,45 @@
+@w: 100px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: @w*15;
+    height: @w*7;
+    background: url(./images/mask.e3f09839.png) no-repeat;
+    background-size: 100%;
+    background-color: black;
+
+    img {
+        position: relative;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    input {
+        position: relative;
+        left: 22%;
+        top: 30%;
+        width: @w*4;
+        height: @w*0.3;
+        border-radius: @w*0.1;
+        outline: none;
+    }
+
+    button {
+        position: relative;
+        left: 22%;
+        top: @w*2.12;
+        width: @w*0.7;
+        height: @w*0.37;
+        border-radius: @w*0.1;
+        outline: none;
+        background-color: rgb(192, 190, 185);
+        font-size: @w*0.18;
+        color: white;
+    }
+}
